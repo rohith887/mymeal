@@ -1,8 +1,37 @@
-# React + Vite
+# My Meal
+## Overview
+RecipeApp is a React-based app where users can explore recipes based on ingredients. The app fetches recipe details, including ingredients, instructions, and images, from the MealDB API. Users can also watch a YouTube tutorial (if available) for each recipe.
+### Live Link: https://mymeall.netlify.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Features
+Search recipes by ingredients.<br />
+View detailed recipe pages with:
+Recipe name, image, and instructions.<br />
+List of ingredients with measures.<br />
+YouTube tutorial for step-by-step cooking (if available).<br />
+Responsive design optimized for both desktop and mobile views.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Dependencies
+**react**: A JavaScript library for building user interfaces.<br />
+**react-router-dom**: Used for routing and handling URL parameters.<br />
+**axios**: A promise-based HTTP client used to fetch data from the MealDB API.<br />
+**tailwindcss**: A utility-first CSS framework for styling.<br />
+
+## Installation
+To set up and run the project locally, follow these steps:
+
+Clone the repository:
+
+git clone https://github.com/rohith887/mymeal.git <br/>
+cd RecipeApp
+
+### Install dependencies:
+
+npm install
+
+### Start the development server:
+
+npm run dev <br />
+Open http://localhost:5173 in your browser to view the app.
+

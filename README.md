@@ -18,6 +18,12 @@ Responsive design optimized for both desktop and mobile views.
 **axios**: A promise-based HTTP client used to fetch data from the MealDB API.<br />
 **tailwindcss**: A utility-first CSS framework for styling.<br />
 
+## Api: MealDB
+To find Recipes by ingredients: www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata <br />
+To find recipe by Id: www.themealdb.com/api/json/v1/1/lookup.php?i=52772 <br />
+
+
+
 ## Installation
 To set up and run the project locally, follow these steps:
 
